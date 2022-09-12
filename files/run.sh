@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 mkdir -p /var/lib/rancher/k3s/agent/etc/containerd/
 cp config.toml.tmpl /var/lib/rancher/k3s/agent/etc/containerd/config.toml.tmpl
 
