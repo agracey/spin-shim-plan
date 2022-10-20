@@ -13,7 +13,7 @@ spec:
     cloud-config:
       write_files:
       - content: |
-          {"instructions":[{"name":"spin-shim","image":"docker.io/atgracey/spin-shim-plan:latest"}]}
+          {"instructions":[{"name":"spin-shim","image":"ghcr.io/agracey/spin-shim-plan:main"}]}
         path: /var/lib/elemental/agent/plans/spin.plan
         permissions: "0600"
 ```
