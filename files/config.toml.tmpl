@@ -104,5 +104,7 @@ enable_keychain = true
 {{end}}
 
 
-[plugins.cri.containerd.runtimes.wasm]
+[plugins.cri.containerd.runtimes.spin]
   runtime_type = "io.containerd.spin.v1"
+[plugins.cri.containerd.runtimes.slight]
+  runtime_type = "io.containerd.slight.v1"
